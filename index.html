@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <title>Jīvana Kauśalam Foundation - Enriching Humanity</title> <!-- Website Title -->
+    <meta name="title" content="Jīvana Kauśalam Foundation - Enriching Humanity" />
+    <meta name="keywords" content="ngo, gita, Bhagavad-gita, gitopanisad, krishna, prabhupada, life skills, kausal">
+    <meta name="description" content="A NGO enriching humanity with life skills based on Bhagavad-gita">
+    <!-- <meta name="facebook-domain-verification" content="qp3yr5eurs18etnbaq78z58q5h1ntl" /> -->
+    <meta name="author" content="Jīvana Kauśalam">
+
+    <!-- Open Graph Protocol https://ogp.me/ -->
+
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://javanakausalam.org" />
+    <meta property="og:site_name" content="Jīvana Kauśalam Foundation - Enriching Humanity" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="images/Jīvana Kauśalam favicon.png" />
+
+
+    <!-- Twitter Cards https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards -->
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:domain" content="https://javanakausalam.org" />
+    <meta name="twitter:title" property="og:title" itemprop="name"
+        content="Jīvana Kauśalam Foundation - Enriching Humanity" />
+    <meta name="twitter:description" property="og:description" itemprop="description"
+        content="Jīvana Kauśalam Foundation - Enriching Humanity" />
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/Jīvana Kauśalam favicon.png" type="image/x-icon">
+
+    <!-- Google Font link  -->
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap link -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <!-- CSS Style Sheet link -->
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- font awesome cdn link -->
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- java script link   -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!--================================= NAVIGATION START ==========================================-->
+
+    <!-- Top Section -->
+
+    <section id="title" class="Colored-section">
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="/images/Jīvana Kauśalam icon.png" alt=""> Jīvana Kauśalam Foundation </a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#"><i class="fas fa-address-book"></i> About</a></li>
+                        <li><a href="#"><i class="fas fa-book-reader"></i> Services</a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> Enquire</a></li>
+                        <li><a href="#"><i class="fas fa-hands-helping"></i> Support</a></li>
+                        <li><a href="#"><i class="fas fa-phone-alt"></i> Call</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <section class="home"> </section>
+
+        <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+
+    </section>
+    <!--================================= NAVIGATION END ==========================================-->
+
+
+
+    <!-- Testmonials Section Bootstrap Carousel -->
+
+    <section id="Testmonials" class="Colored-section">
+        <h2 class="Second-heading"> Testmonials !</h2>
+
+        <!-- Testmonials-reflections - Bootstrap Items -->
+
+        <div id="Testmonial-slides" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3>“The art of living, and what matters is the way to live a life which is worthful is the main
+                        theme I have learnt from Sundarananda dasa ji.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Ritvik Anand, ME Student (UPES, Dehradun)</p>
+
+                </div>
+
+                <div class="carousel-item">
+                    <h3>“Prabhu is very kind and is a very good explainer He always takes time to solve doubts and hear
+                        opinions before proving what is right or wrong.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Ayush Mukherjee, ME Student (Manipal University Jaipur) </p>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>“Yes you may not be fascinated with one speech at once. He is one of the best mentor who guided
+                        me how to service the lord. Today I'm enjoying the fruitfulness of his blessings and teachings.
+                        Prabhu not only relates the importance of our life but also relates everything to the Gita
+                        essentials. My sincere thanks for helping us by teaching every weekend Gita classes and made us
+                        realise how important the spirituality can bring change in us. Thank you prabhu.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Aditya Manikantka, CSE Student (UPES, Dehradun)</p>
+                </div>
+
+
+                <div class="carousel-item">
+                    <h3>“It’s been almost 3 years I am in n constant touch with Prabhu and I am so grateful of him that
+                        even I share almost everything about my experiences and challenge I face everyday, be it family
+                        dealings, or work. He is a good listener and analysis us from within. He keeps reminding me
+                        spiritual ethics and moral values that we many times forget while engaging in our day to day
+                        activities. He is so Kind and calm.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Avanish Singh, Architect (Manipal University, Jaipur)</p>
+                </div>
+
+
+                <div class="carousel-item">
+                    <h3>“It’s been almost 3 years I am in n constant touch with Prabhu and I am so grateful of him that
+                        even I share almost everything about my experiences and challenge I face everyday, be it family
+                        dealings, or work. He is a good listener and analysis us from within. He keeps reminding me
+                        spiritual ethics and moral values that we many times forget while engaging in our day to day
+                        activities. He is so Kind and calm.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Avanish Singh, Architect (Manipal University, Jaipur)</p>
+                </div>
+
+
+                <div class="carousel-item">
+                    <h3>“Seriously, I don't know How lucky I'm to found a guide like you. Your guidance help me a lot in
+                        understand the value of life.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>ChandraPrakash, Professor & Entrepreneur</p>
+                </div>
+
+
+                <div class="carousel-item">
+                    <h3>“Prabhu has indepth knowledge of Bhagvad Gita - the manual for life. He gives answers to the
+                        problems faced by people from the wisdom of ancient Vedic literature and literature in pursuance
+                        of that nature. Rest assured the solutions not only solve the problems but also transform your
+                        life. Consult him for finding solutions that are effective and permanant and at the same time
+                        receive grace of God in your life.”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Gopal Srangi, Software Engineer</p>
+                </div>
+
+
+                <div class="carousel-item">
+                    <h3>“A perfect guide in every step of our life!”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Ankit Sarogi, Enerpreneur</p>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>“A perfect guide in every step of our life!”</h3>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                    <p>Tanisha, Software Engineer(Accenture)</p>
+                </div>
+
+
+            </div>
+            <!-- Famous-reflections - Bootstrap Carousel Button  -->
+
+            <a class="carousel-control-prev" href="#Testmonial" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#Testmonial" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+
+         </div>
+    </section>
+
+
+
+    <footer id="footer">
+
+        <a href="https://www.instagram.com/jivana_kausalam/" target="_blank"><i
+                class="fab fa-instagram footer-icon fa-lg"></i></a>
+
+        <a href="https://www.linkedin.com/in/jivana-kausalam-foundation-19b645208" target="_blank"><i
+                class="fab fa-linkedin-in footer-icon fa-lg"></i></a>
+
+        <a href="mailto:Jivanakausalamfoundation@gmail.com"><i class="far fa-envelope footer-icon fa-lg"></i></a>
+
+        <a href="https://api.whatsapp.com/send?phone=91 9413548256" target="_blank"><i
+                class="fab fa-whatsapp footer-icon fa-lg"></i></a>
+
+        <a href="tel:+91 9413548256"><i class="fas fa-phone-alt footer-icon fa-lg"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-facebook-f footer-icon fa-lg"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-youtube footer-icon fa-lg"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-twitter footer-icon fa-lg"></i></a>
+
+
+        <p id="copyr">© Copyright 2021 Jīvana Kauśalam Foundation </p>
+
+    </footer>
+
+
+</body>
+
+</html>
