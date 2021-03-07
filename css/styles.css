@@ -2,15 +2,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     text-align: center;
-	background-color:#f2b4b4;
     color: #000000;
-    /* font-size: 100%; */
-    /* font-size: 10px; */
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 /* Navbar section */
 
@@ -27,13 +22,14 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    padding-left: rem;
+    margin: auto;
 }
 
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
-    /* font-size: 100 rem; */
+    font-size: 1.5rem;
 }
 
 .nav div.logo a:hover {
@@ -65,7 +61,7 @@ body {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    /* font-size: 2 rem; */
+    font-size: 1.5rem;
 }
 
 .nav div.main_list ul li a:hover {
@@ -73,12 +69,14 @@ body {
 }
 
 
+
+
 /* Home section */
 
 .home {
-    /* width: 100%; */
-    height: 100vh;
-    background-image: url(images/Jīvana Kauśalam Back.png);
+    width: 100%;
+    height: 65vh;
+    background-image: url(/images/Back.jpg);
     background-position: center top;
 	background-size:cover;
 }
@@ -94,21 +92,33 @@ body {
     transition: all 0.4s ease;
 }
 
-/* Famous-reflections Section */
+
+/* Features Section */
+
+#features{
+    padding: 3% 10%;
+    color:  #383e56;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+}
+
+.feature-box{
+    padding: 2.5%;
+    color: #440a67;
+    font-weight: 800;
+}
+
+.icon {
+    margin-bottom: 8%;
+}
+
+/* Testmonials Section */
 
 #Testmonials{
-    font-family: 'Montserrat-bold', sans-serif;
-    padding: 2%;
+    padding: 3% 5%;
     background-color: #faf3e0
 }
-
-#Testmonials h2{
-    color: #000000;
-    font-family: 'Open Sans', sans-serif;
-
-}
-    
-}
+  
 #Testmonial-slides h3{
     line-height: 2;
 }
@@ -124,28 +134,25 @@ body {
 
 #footer{
     text-align: center;
-    background-color: #ffffff;
+    
 }
 
 .footer-icon{
-    margin: 2% 1% 2%;
-
+    margin: 2% 1% 1%;
+    color: #0c0a67;
 }
 
 .footer-icon:hover{
-    
-    color: #000000;
+  
+    color:   #4d6eb5;
 }
 
 /* Copyright */
 
 #copyr{
-    padding: 1%;
+    padding-top: 1%;
 
 }
-
-
-
 
 
 
@@ -160,13 +167,13 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 .home {
-    height: 10vh;
-    background-image: url(images/Jīvana Kauśalam Back.png);
+    width: 100%;
+    height: 50vh;
+    background-image: url(/images/Jīvana\ Kauśalam\ Back.png);
     background-position: center top;
 	/* background-size:cover; */
 }
 }
-
 
 
 @media screen and (max-width:768px) {
@@ -409,11 +416,6 @@ body {
     background-color: #383e56;
 }
 
-
-
-
-
-
 .myH2 {
 	text-align:center;
 	/* font-size: 4rem; */
@@ -428,4 +430,12 @@ body {
 	.myP {
 		padding:2%;
 	}
+
+
+   .footer-icon{
+        margin: 5% 2% 5%;
+        color: #0c0a67;
+    }
+    
+    
 }
