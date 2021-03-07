@@ -82,15 +82,14 @@
 
 <body>
 
-    <!--================================= NAVIGATION START ==========================================-->
-
-    <!-- Top Section -->
+    <!-- ================================= NAVIGATION SECTION START ========================================== -->
 
     <section id="title" class="Colored-section">
+
         <nav class="nav">
             <div class="container">
                 <div class="logo">
-                    <a href="#"><img src="images/Jīvana Kauśalam icon.png" alt=""> Jīvana Kauśalam Foundation </a>
+                    <a href="#"> <i class="fas fa-hands"></i> Jīvana Kauśalam Foundation</a>
                 </div>
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
@@ -109,36 +108,53 @@
                 </span>
             </div>
         </nav>
-
         <section class="home"> </section>
 
-        <!-- Jquery needed -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js/scripts.js"></script>
 
-        <!-- Function used to shrink nav bar removing paddings and adding black background -->
-        <script>
-            $(window).scroll(function () {
-                if ($(document).scrollTop() > 50) {
-                    $('.nav').addClass('affix');
-                    console.log("OK");
-                } else {
-                    $('.nav').removeClass('affix');
-                }
-            });
-        </script>
 
     </section>
     <!--================================= NAVIGATION END ==========================================-->
 
 
 
-    <!-- Testmonials Section Bootstrap Carousel -->
+    <!--================================= FEATUERE SECTION START ==========================================-->
+
+
+    <section id="features" class="White-section">
+
+        <h2 class="Second-heading">Our Seminars are for everyone !</h3>
+
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-book-reader fa-4x"></i>
+                    <h2> Learn, Understand &amp; Practice</h2>
+                    <p>Lets give a try.</p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-language fa-4x"></i>
+                    <h2>Available in English and Hindi (Online & Offline)</h2>
+                    <p>Language is now no more a barrier.</p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-hand-holding-seedling fa-4x"></i>
+                    <h2>For the Holistic Growth of the Human Society </h2>
+                    <p>Make your life hopeful, peaceful and blissful</p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!--================================= FEATUERE SECTION END ==========================================-->
+
+
+    <!--================================= TESTIMONIAL SECTION START ==========================================-->
 
     <section id="Testmonials" class="Colored-section">
-        <h2 class="Second-heading"> Testmonials !</h2>
 
-        <!-- Testmonials-reflections - Bootstrap Items -->
+        <h2 class="Second-heading"> <i class="far fa-comment-lines"></i> Testmonials !</h2>
 
         <div id="Testmonial-slides" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -288,7 +304,7 @@
                 <span class="visually-hidden">Next</span>
             </a>
 
-         </div>
+        </div>
     </section>
 
 
@@ -314,10 +330,27 @@
 
         <a href="" target="_blank"><i class="fab fa-twitter footer-icon fa-lg"></i></a>
 
-
-        <p id="copyr">© Copyright 2021 Jīvana Kauśalam Foundation </p>
+        <p id="copyr">© Copyright 2021 Jīvana Kauśalam Foundation</p> 
+        <p> <i class="fas fa-pen-fancy"></i> Design by Vedānta Vijñānam Technology </p>
 
     </footer>
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
 
 
 </body>
